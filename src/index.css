@@ -1,0 +1,36 @@
+.image{
+  position: relative;
+  height: 100vh;
+  /* width: 100%; */
+
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+.content span.imgtxt{
+  background-color: #333;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+}
+h3{
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font: 1.3rem;
+  text-align: center;
+}
+.textbox{
+  text-align: center;
+  padding: 3rem 1rem;
+  text-align: justify;
+}
+.bg{
+  background: url("https://imgix.bustle.com/uploads/shutterstock/2020/2/12/c760fdbc-3cad-4b4c-bd72-b389400dd01d-shutterstock-1401778256.jpg?w=2000&h=1090&fit=crop&crop=faces&auto=format%2Ccompress");
+}
